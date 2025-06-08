@@ -28,7 +28,7 @@ def upperTriangle(n):
 
 # Pyramid Pattern
 
-def full_pyramid(n):
+def pyramid(n):
 
     for i in range(1, n + 1):
 
@@ -47,16 +47,69 @@ def full_pyramid(n):
 if __name__ == "__main__":
      
      n  = int(input("Enter the value of n (must be integer)"))
+
+     print("Lower Triangle:-\n")
      
      lowerTriangle(n)
 
      print('\n\n')
 
+     print("Upper Triangle:-\n")
+
      upperTriangle(n)
 
      print('\n\n')
 
-     full_pyramid(n)
+     print("Pyramid:-\n")
 
+     pyramid(n)
+
+
+
+# Sample Output
+
+# Enter the value of n (must be integer)10
+
+
+# Lower Triangle:-
+
+# *
+# **
+# ***
+# ****
+# *****
+# ******
+# *******
+# ********
+# *********     
+ 
+# Upper Triangle:-
+
+
+# ********** 
+#  ********* 
+#   ******** 
+#    ******* 
+#     ****** 
+#      ***** 
+#       **** 
+#        *** 
+#         ** 
+#          * 
+
+
+# Pyramid:-
+
+
+#          * 
+#         *** 
+#        ***** 
+#       ******* 
+#      ********* 
+#     *********** 
+#    ************* 
+#   *************** 
+#  ***************** 
+# ******************* 
 
 
