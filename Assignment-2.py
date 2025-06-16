@@ -29,8 +29,8 @@ class LinkedList:
     
     def __init__(self):
         
-        self.head = None        # The very first node in the list. None means the list is empty.
-        self.node_count = 0     # A handy counter for the number of nodes.
+        self.head = None       
+        self.node_count = 0     
 
     def add_to_end(self, value):
        
@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
    
     try:
-        my_book_list.remove_node_at(3) # Deleting "1984"
+        my_book_list.remove_node_at(3) 
         my_book_list.display_chain()
     except LinkedListError as e:
         print(f"Error: {e}")
